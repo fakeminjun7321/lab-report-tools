@@ -4,7 +4,7 @@
  */
 (function () {
   "use strict";
-  var SHEETJS_URL = "/tools/vendor/xlsx.mini.min.js";
+  var SHEETJS_URL = "vendor/xlsx.mini.min.js";
   var loading = null;
   function loadXLSX() {
     if (window.XLSX) return Promise.resolve(window.XLSX);
